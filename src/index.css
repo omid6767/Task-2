@@ -1,0 +1,157 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --color-body: #ffffff;
+  --color-icon: #afcedd;
+  --color-number: #696969;
+  --color-bg-two: #afcedd;
+  --color-two: #234894;
+  --color-button: #219f95;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  direction: rtl;
+}
+h1 {
+  font-size: 2.2rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+@media screen and (width: 768px) {
+  body {
+    font-size: 1.4rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+}
+@media screen and (width: 1440px) {
+  body {
+    font-size: 1.6rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2.4rem;
+  }
+}
+.main {
+  display: grid;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.main h1 {
+  grid-column: 1 / -1;
+  margin-top: 5rem;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 400px;
+  height: 200px;
+  margin-top: 2rem;
+}
+.main__tittle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.main__tittle span {
+  display: flex;
+  align-items: center;
+  color: var(--color-two);
+}
+.main__tittle span > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-bg-two);
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 1.8rem;
+  margin-left: 1.5rem;
+}
+.main__date {
+  color: var(--color-number) !important;
+  font-size: 1.2rem;
+}
+.main__tittle h6 {
+  margin-left: 10px;
+}
+.main__tittle p {
+  margin-left: auto;
+}
+.main__request {
+  display: flex;
+  flex-direction: column;
+}
+.main__request h3 {
+  color: #1e1e1e;
+}
+.main__request p {
+  color: var(--color-number);
+}
+.main__information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.main__information span {
+  display: flex;
+  align-items: center;
+}
+.main__information > span > img {
+  width: 40px;
+  height: 40px;
+  margin-left: 1rem;
+  border-radius: 8px;
+}
+.main__information > span > p {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.main__information > span > button {
+  background-color: var(--color-button);
+  padding: 1.2rem;
+  color: #fff;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 1024px;
+    margin: 2rem auto;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    max-width: 1920px;
+    margin: 2rem auto;
+  }
+}

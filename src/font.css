@@ -1,0 +1,10 @@
+@font-face {
+  font-family: vazirmatn;
+  src: url(../assets/Fonts/Vazirmatn-FD-Bold.woff2);
+}
+body {
+  font-family: vazirmatn;
+}
+button{
+  font-family: vazirmatn;
+}

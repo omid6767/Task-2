@@ -58,9 +58,9 @@ h3 {
 .main-container {
   display: flex;
   flex-direction: column;
-  padding: 10px;
-  width: 400px;
-  height: 200px;
+  padding: 1rem;
+  width: 40rem;
+  height: 20rem;
   margin-top: 2rem;
 }
 .main__tittle {
@@ -81,9 +81,9 @@ h3 {
   align-items: center;
   justify-content: center;
   background-color: var(--color-bg-two);
-  width: 40px;
-  height: 40px;
-  border-radius: 6px;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.6rem;
   font-size: 1.8rem;
   margin-left: 1.5rem;
 }
@@ -92,7 +92,7 @@ h3 {
   font-size: 1.2rem;
 }
 .main__tittle h6 {
-  margin-left: 10px;
+  margin-left: 1rem;
 }
 .main__tittle p {
   margin-left: auto;
@@ -120,8 +120,8 @@ h3 {
   align-items: center;
 }
 .main__information > span > img {
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
   margin-left: 1rem;
   border-radius: 8px;
 }
